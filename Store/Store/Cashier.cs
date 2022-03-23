@@ -10,7 +10,7 @@ namespace Store
     {
         public static void PrintReceipt(Dictionary<Product, decimal> cart)
         {
-            Console.WriteLine($"Date: {DateTime.Now}\n---Products---\n");
+            Console.WriteLine($"Date: {DateTime.Now}\n---Products---");
 
             decimal subtotal = 0m;
             decimal discount = 0m;
@@ -23,18 +23,19 @@ namespace Store
                 decimal totalPrice = product.Price * quantity;
                 decimal discountSum = totalPrice * product.Discount;
 
-                Console.WriteLine($"{product.Name} {product.Brand}");
-                Console.WriteLine($"{quantity} x {product.Price} = {totalPrice:.00}");
-                Console.WriteLine($"#discount {product.Discount:P2} {discountSum:0.00}\n");
+                Console.WriteLine($"\n{product.Name} {product.Brand}");
+                Console.WriteLine($"{quantity} x {product.Price} = {totalPrice:C2}");
+                if (discountSum != 0)
+                    Console.WriteLine($"#discount {product.Discount:P2} {discountSum:C2}");
 
                 subtotal += totalPrice;
                 discount += discountSum;
             }
 
             Console.WriteLine(new string('-', 20));
-            Console.WriteLine($"SUBTOTAL: {subtotal}");
-            Console.WriteLine($"DISCOUNT: -{discount}");
-            Console.WriteLine($"TOTAL: {subtotal - discount}");
+            Console.WriteLine($"SUBTOTAL: {subtotal:C2}");
+            Console.WriteLine($"DISCOUNT: -{discount:C2}");
+            Console.WriteLine($"TOTAL: {subtotal - discount:C2}");
         }
     }
 }
