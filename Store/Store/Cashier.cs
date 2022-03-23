@@ -15,20 +15,23 @@ namespace Store
             decimal subtotal = 0m;
             decimal discount = 0m;
 
-            foreach (KeyValuePair<Product, decimal> product in cart)
+            foreach (KeyValuePair<Product, decimal> item in cart)
             {
-                decimal totalPrice = product.Key.Price * product.Value;
-                decimal discountSum = product.Key.Price * product.Key.Discount;
+                Product product = item.Key;
+                decimal quantity = item.Value;
 
-                Console.WriteLine($"{product.Key.Name} {product.Key.Brand}");
-                Console.WriteLine($"{product.Value} x {product.Key.Price} = {totalPrice}");
-                Console.WriteLine($"#discount {product.Key.Discount:P2} {discountSum}\n");
+                decimal totalPrice = product.Price * quantity;
+                decimal discountSum = totalPrice * product.Discount;
+
+                Console.WriteLine($"{product.Name} {product.Brand}");
+                Console.WriteLine($"{quantity} x {product.Price} = {totalPrice:.00}");
+                Console.WriteLine($"#discount {product.Discount:P2} {discountSum:0.00}\n");
 
                 subtotal += totalPrice;
                 discount += discountSum;
             }
 
-            Console.WriteLine(new string('-', 30));
+            Console.WriteLine(new string('-', 20));
             Console.WriteLine($"SUBTOTAL: {subtotal}");
             Console.WriteLine($"DISCOUNT: -{discount}");
             Console.WriteLine($"TOTAL: {subtotal - discount}");

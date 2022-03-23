@@ -10,7 +10,7 @@ namespace Store
     {
         public string Model { get; set; }
         public DateTime ProductionDate { get; set; }
-        public int Weight { get; set; }
+        public decimal Weight { get; set; }
         public override decimal Discount
         {
             get
@@ -22,7 +22,7 @@ namespace Store
             }
         }
 
-        public Appliance(string name, string brand, decimal price, string model, DateTime productionDate, int weight)
+        public Appliance(string name, string brand, decimal price, string model, DateTime productionDate, decimal weight)
             : base(name, brand, price)
         {
             Model = model;

@@ -11,7 +11,7 @@ namespace Store
         public string Name { get; set; }
         public string Brand { get; set; }
         public decimal Price { get; set; }
-        public virtual decimal Discount { get; } = 0;
+        public virtual decimal Discount { get; } = 0m;
 
         public Product(string name, string brand, decimal price) =>
             (Name, Brand, Price) = (name, brand, price);
