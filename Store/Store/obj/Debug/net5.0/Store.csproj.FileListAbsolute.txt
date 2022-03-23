@@ -1,0 +1,16 @@
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\Store.exe
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\Store.deps.json
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\Store.runtimeconfig.json
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\Store.runtimeconfig.dev.json
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\Store.dll
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\ref\Store.dll
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\bin\Debug\net5.0\Store.pdb
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.csproj.AssemblyReference.cache
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.AssemblyInfoInputs.cache
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.AssemblyInfo.cs
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.csproj.CoreCompileInputs.cache
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.dll
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\ref\Store.dll
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.pdb
+D:\University\курс 2\Обектно-ориентирано програмиране\Упражнения\Store\Store\Store\obj\Debug\net5.0\Store.genruntimeconfig.cache
